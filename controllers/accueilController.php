@@ -1,4 +1,4 @@
 <?php
 
-require 'models/AccueilModel.php';
+require 'models/ProductsModel.php';
 require 'views/accueilView.php';
