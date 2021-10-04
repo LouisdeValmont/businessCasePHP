@@ -1,0 +1,294 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+body{
+    background-image: url(../assets/image/others/day-and-night/dayRoad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*header*/
+#titre-animalerie{
+    font-weight: bold;
+    letter-spacing: 16px;
+    color: white;
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+}
+.image-logo{
+    height: 80%;
+    width: 10%;
+    margin-right: 5%;
+}
+.row{
+    --bs-gutter-x: 0em;
+}
+.text-size{
+    font-size: 3vw;
+}
+
+/*Carousel*/
+
+#carouselExampleCaptions{
+    width: 100%;
+
+}
+.main-image{
+    height: 500px;
+}
+.layer2{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+    z-index: 20;
+}
+.second-image{
+    height: 200px;
+}
+.carousel-control-prev{
+    z-index: 40;
+}
+.carousel-control-next{
+    z-index: 40;
+}
+
+/* Bar de menu */
+
+.fond-bleu{
+    background-color: rgb(163, 194, 255);
+    padding: 0.5%;
+    margin-right: 2.5%;
+    padding-top: 1.1%;
+    box-shadow: 5px 5px 5px lightblue;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid darkblue;
+}
+.fond-bleu a{
+    text-decoration: none;
+}
+
+.bar-menu-fs{
+    font-size: 1.5vw;
+    color: black;
+}
+
+/* footer menu format mobile */
+
+#bottom-bar svg:hover{
+    color: rgb(29, 161, 242);
+}
+
+/* Filtre coté gauche */
+
+
+.filtre-gauche{
+    margin: 2%;
+    margin-left: 12%;
+}
+.section-filtre h5{
+    background-color:rgba(29, 160, 242, 0.534) ;
+    padding: 0px;
+}
+.section-filtre{
+    background-color:rgb(222, 230, 248);
+    padding: 1%;
+    /* padding-left: 2%; */
+
+}
+.arrondi-top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.arrondi-bottom{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.filtre-gauche p{
+    margin-bottom: 0px;
+}
+.filtre-g-fs{
+    font-size: 1.2vw;
+}
+.filtre-g-fs-title{
+    font-size: 1.5vw;
+}
+/* Filtre coté gauche / marques*/
+.dropdown-menu{
+    background-color: rgb(178, 199, 247);
+}
+
+/* produits */
+.prductShowCast{
+    background-color: rgb(222, 230, 248);
+    padding: 10px;
+    margin-left: 10px;
+    /* border-left: 1px solid #333; */
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.shop-item{
+    margin: 25px;
+    text-align: center;
+}
+.shop-item-title{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: 100%;
+    color: #333;
+}
+.shop-item-image{
+    margin-bottom: 10px;
+}
+.shop-item-price{
+    flex-grow: 1;
+}
+
+.shop-item-image {
+    height: 160px;
+    text-align: center;
+}
+.section-header{
+    text-align: center;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 0.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+.cart-row {
+    display: flex;
+    margin-left: 50px;
+}
+
+.cart-item {
+    width: 45%;
+
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-left: 104px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quatity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+/* About US */
+.aboutUs{
+    text-align: center;
+}
+.aboutUsText{
+    margin-left: 30%;
+    margin-right: 35%;
+    margin-top: 3%;
+}
+.smallAboutUs{
+    background-color: rgb(163, 194, 255);
+}
+
+/* footer */
+.footerCondition{
+    color: black;
+    font-size: small;
+}
+footer div{
+    text-align: center;
+}
