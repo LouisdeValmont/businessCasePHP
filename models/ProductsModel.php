@@ -1,5 +1,206 @@
 <?php
 
+class Product{
+    private $id;
+    private $title;
+    private $brand;
+    private $description;
+    private $img;
+    private $priceHT;
+    private $tva;
+    private $actif;
+    private $id_Animal;
+    private $id_category;
+
+    /**
+     * @param $id
+     * @param $title
+     * @param $brand
+     * @param $description
+     * @param $priceHT
+     * @param $tva
+     * @param $img
+     * @param $actif
+     * @param $id_Animal
+     * @param $id_category
+     */
+    public function __construct($id, $title, $brand, $description, $img, $priceHT, $tva, $actif, $id_Animal,
+                                $id_category)
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->brand = $brand;
+        $this->description = $description;
+        $this->img = $img;
+        $this->priceHT = $priceHT;
+        $this->tva = $tva;
+        $this->actif = $actif;
+        $this->id_Animal = $id_Animal;
+        $this->id_category = $id_category;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * @param mixed $title
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getBrand()
+    {
+        return $this->brand;
+    }
+
+    /**
+     * @param mixed $brand
+     */
+    public function setBrand($brand)
+    {
+        $this->brand = $brand;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * @param mixed $img
+     */
+    public function setImg($img)
+    {
+        $this->description = $img;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPriceHT()
+    {
+        return $this->priceHT;
+    }
+
+    /**
+     * @param mixed $priceHT
+     */
+    public function setPriceHT($priceHT)
+    {
+        $this->priceHT = $priceHT;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTva()
+    {
+        return $this->tva;
+    }
+
+    /**
+     * @param mixed $tva
+     */
+    public function setTva($tva)
+    {
+        $this->tva = $tva;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getActif()
+    {
+        return $this->actif;
+    }
+
+    /**
+     * @param mixed $actif
+     */
+    public function setActif($actif)
+    {
+        $this->actif = $actif;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdAnimal()
+    {
+        return $this->id_Animal;
+    }
+
+    /**
+     * @param mixed $id_Animal
+     */
+    public function setIdAnimal($id_Animal)
+    {
+        $this->id_Animal = $id_Animal;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdCategory()
+    {
+        return $this->id_category;
+    }
+
+    /**
+     * @param mixed $id_category
+     */
+    public function setIdCategory($id_category)
+    {
+        $this->id_category = $id_category;
+    }
+}
+
+
 $produits = array(
     array('Id_Produit' => '1','Titre' => 'Mauri','Marque' => '','Description' => 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 

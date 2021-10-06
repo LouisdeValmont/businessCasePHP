@@ -7,8 +7,8 @@
                 id="titre-animalerie" class="text-size">NIMES'ALERIE</p></div>
         <div class="col-1 col-md-1 w-lg-100 w-md-70 d-flex  d-none d-md-block justify-content-center align-items-center">
             <a href="#" class="iconify" data-inline="false" data-icon="codicon:account"
-               style="color: #000000; font-size: 65px;"></a></div>
+               style="color: white; font-size: 65px;"></a></div>
         <div class="col-2 col-md-2 w-lg-100 w-md-70 d-flex d-none d-md-block justify-content-start align-items-center">
             <a href="#" class="iconify" data-inline="false" data-icon="simple-line-icons:basket"
-               style="font-size: 65px;"></a></div>
+               style="color: white; font-size: 65px;"></a></div>
     </div>

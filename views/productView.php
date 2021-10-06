@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/styleAccueil.css">
     <title>Anime'alerie Accueil</title>
 </head>
-<body>
+<body class="bodyProducts">
 
 <!--header-->
 
@@ -25,7 +25,7 @@
 <!-- filtre a gauche -->
 <?php include 'template/leftFilter.php'; ?>
 <!-- fin colonne filtre / debut colonne produit -->
-<?php include 'template/rightProducts.php'; ?>
+<?php include 'template/rightAllProduct.php'; ?>
 <!-- fin section produit -->
 
 <!-- about the compagnie -->

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/styleAccueil.css">
     <title>Anime'alerie Accueil</title>
 </head>
-<body>
+<body class="bodyAccueil">
 
 <!--header-->
 
